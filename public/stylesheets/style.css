@@ -8,6 +8,15 @@ a {
   color: #00B7FF;
 }
 img{
-	max-width: 100%
+	max-width: 100%;
+}
+
+.movie-poster{
+	padding-top: 5px;
+	min-height: 410px;
+}
+
+.click-poster{
+	/*text-align: center;*/
 }
 
