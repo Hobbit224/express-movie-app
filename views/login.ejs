@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie App</title>
+
+<%include head%>
+
+</head>
+<body>
+
+<% include navbar %>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 text-danger text-center">
+			<form action="processLogin" method="post">
+				<input type="email" name="email" placeholder="Enter email">
+				<input type="password" name="password" placeholder="Enter password">
+				<button class="btn btn-success" type="submit">Log in</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
