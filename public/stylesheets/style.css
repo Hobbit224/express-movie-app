@@ -1,7 +1,7 @@
 body {
-  padding: 50px;
+  /*padding: 50px;*/
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-size: 40px
+  /*font-size: 40px*/
 }
 
 a {
@@ -13,10 +13,14 @@ img{
 
 .movie-poster{
 	padding-top: 5px;
-	min-height: 410px;
+	/*min-height: 410px;*/
 }
 
 .click-poster{
 	/*text-align: center;*/
+	/*width: 100%;*/
 }
-
+.movie-info{
+	display: inline-block;
+	float: left;
+}
